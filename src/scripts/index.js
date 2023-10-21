@@ -16,3 +16,21 @@ modeToggle.addEventListener("click", () => {
   applyMode();
   localStorage.setItem("darkMode", darkMode);
 });
+// Welcome project button
+const scrollToProjectButton = document.getElementById("scrollToProject");
+const projectSection = document.getElementById("project-section");
+scrollToProjectButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: aboutSection.offsetTop,
+    behavior: "smooth",
+  });
+});
+// Welcome contact section
+const scrollToAboutButton = document.getElementById("scrollToAbout");
+const aboutSection = document.getElementById("about");
+scrollToAboutButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: aboutSection.offsetTop,
+    behavior: "smooth",
+  });
+});
