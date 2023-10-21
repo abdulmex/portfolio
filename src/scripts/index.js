@@ -21,16 +21,16 @@ const scrollToProjectButton = document.getElementById("scrollToProject");
 const projectSection = document.getElementById("project-section");
 scrollToProjectButton.addEventListener("click", () => {
   window.scrollTo({
-    top: aboutSection.offsetTop,
+    top: projectSection.offsetTop,
     behavior: "smooth",
   });
 });
-// Welcome contact section
-const scrollToAboutButton = document.getElementById("scrollToAbout");
-const aboutSection = document.getElementById("about");
-scrollToAboutButton.addEventListener("click", () => {
+// Welcome contact button
+const scrollToContactButton = document.getElementById("scrollToContact");
+const contactSection = document.getElementById("contact-section");
+scrollToContactButton.addEventListener("click", () => {
   window.scrollTo({
-    top: aboutSection.offsetTop,
+    top: contactSection.offsetTop,
     behavior: "smooth",
   });
 });
