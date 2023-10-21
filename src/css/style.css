@@ -188,3 +188,17 @@ svg {
   display: flex;
   justify-content: space-between;
 }
+/* contact */
+.contact {
+  margin-top: 100px;
+}
+.input-text {
+  height: 40px;
+  border-radius: 1em;
+  background-color: #e0e0e0;
+}
+.input-text-area {
+  height: 100px;
+  border-radius: 1em;
+  background-color: #e0e0e0;
+}
