@@ -178,13 +178,18 @@ svg {
   --font-color: #323232;
   --bg-color: #e0e0e0;
   width: 250px;
-  height: 350px;
+  height: 55vh;
   border-radius: 20px;
+  /* border: none; */
   background: var(--bg-color);
   display: flex;
   flex-direction: column;
   transition: 0.4s;
   position: relative;
+}
+.project-imgs {
+  border-top-right-radius: 21px;
+  border-top-left-radius: 21px;
 }
 .card:hover {
   transform: scale(1.02);
@@ -192,7 +197,7 @@ svg {
 }
 .card__img {
   width: 100%;
-  height: 100%;
+  /* height: 30vh; */
   object-fit: cover;
   border-radius: 20px 20px 0 0;
   background-color: blueviolet;
