@@ -34,3 +34,8 @@ scrollToContactButton.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+const HomeAnchorTag = document.getElementById("home-page");
+HomeAnchorTag.addEventListener("click", (e) => {
+  e.preventDefault();
+});
