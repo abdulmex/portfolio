@@ -10,7 +10,6 @@
   z-index: 9999px;
 }
 body.dark-mode {
-  /* background-color: #191923; */
   background-color: #0c163b;
   color: #ffff;
   .navbar-brand {
@@ -30,7 +29,6 @@ body.dark-mode {
     background-color: white;
   }
   .main-text-bg {
-    /* background-color: #191923; */
     background-color: #0c163b;
     margin-top: 150px;
     z-index: -1;
@@ -54,9 +52,8 @@ body.dark-mode {
     background-color: #93b2b8;
   }
 }
-.navbar-brand {
-  color: #051e55;
-  font-weight: bolder;
+.navbar-brand img {
+  width: 50vw;
 }
 .nav-link {
   color: #000;
@@ -180,7 +177,6 @@ svg {
   width: 250px;
   height: 55vh;
   border-radius: 20px;
-  /* border: none; */
   background: var(--bg-color);
   display: flex;
   flex-direction: column;
